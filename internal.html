@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+
+<style>
+
+table{
+font-family: arial, sans-serif;
+text-align:center;
+display:inline-block;
+border:1px solid black;
+}
+.container{
+    background-color: yellow;
+    text-align: center;
+    color: red;
+    overflow:auto;
+ 
+}
+.one{
+    color: black;
+    text-align: left;
+    overflow:auto;
+    }
+tr, td, th {
+background-color: skyblue;
+border:1px solid black;
+text-align: left; 
+padding:10px;
+}
+</style>
+</head>
+<body>
+<table>
+<form>
+<tr>
+   <td colspan="2" style="background-color:yellow"><div class="container"><h2>Registration Form</h2></div></td>
+</tr>
+  <tr>
+    <th><div class="one">Enter Name</div></th>
+    <td><div class="one">
+  <label for="name"></label>
+  <input type="text" id="name" name="name"><br></div>
+</td>
+  </tr>
+    <tr>
+    <th><div class="one">Enter Password</div></th>
+   <td><div class="one">
+  <label for="password"></label>
+  <input type="password" id="password" name="password"><br></div>
+</td></div>
+  </tr>
+  <tr>
+    <th><div class="one">Enter Address</div></th>
+    <td><div class="one">
+  <textarea rows="3"></textarea><br></div>
+</td>
+  </tr>
+  <tr>
+<th><div class="one">Select Game</div></th>
+  <td><div class="one">
+  <input type="checkbox">Hockey<br>
+  <input type="checkbox">Football<br>
+  <input type="checkbox">Badminton<br>
+  <input type="checkbox">Cricket<br>
+  <input type="checkbox">Volleyball<br></div>
+</td>
+  </tr>
+  <tr>
+<th><div class="one">Gender</div></th>
+    <td><div class="one">
+  <input type="radio" id="Male" name="fav_language" value="Male">
+  <label for="Male">Male</label>
+  <input type="radio" id="Female" name="fav_language" value="Female">
+  <label for="Female">Female</label></div>
+</td>
+  </tr>
+  <tr>
+    <th><div class="one">Select your Age</div></th>
+    <td><div class="one">
+    <Select>
+    <option>Select</option>
+    <option>15</option>
+    <option>16</option>
+    <option>17</option>
+    <option>18</option>
+    <option>19</option>
+    <option>20</option>
+    <option>21</option>
+    <option>More than 22</option>
+    </Select></div>
+    </td>
+  </tr>
+  <tr>
+    <th><div class="one">Select Photo</div></th>
+    <td><div class="one"><input type="file"></div></td>
+  </tr>
+   <tr>
+   <td colspan="2"><div class="one"><center>
+   <input type="button" value="Click Me">
+   <input type="reset" value="Reset">
+   <input type="submit" value="Submit Form"></center></div></td></tr>
+   </form>
+</table>
+
+</body></html>
+

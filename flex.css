@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.header{
+    background-color: #ffa;
+    color: red;
+    border: 1px solid black;
+    text-align: center;
+    width: 99.75%;
+    padding-bottom: 0.75%;
+}
+
+.flex_container{
+
+}
+
+.left_container{
+    float: left;
+    background-color: whitesmoke;
+    padding-top: 20%;
+    color: black;
+    height: 100%;
+    text-align: justify;
+    width: 45%;
+    
+}
+
+.right_container{
+    float: right;
+    background-color: turquoise;
+    padding-top: 30%;
+    justify-content: right;
+    height: 100%;
+    text-align: center;
+    width: 45%;
+}
